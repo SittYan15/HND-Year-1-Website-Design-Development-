@@ -1,0 +1,92 @@
+.mainBody
+{
+    width: 93%;
+    margin: 0 auto;
+    /* box-shadow: 1px 1px 5px inset blue; */
+    margin-top: 5px;
+    padding-bottom: 30px;
+}
+
+h1
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: #0097b2; 
+    font-weight: bold; 
+    text-shadow: 1px 1px 2px #9590f0;
+    padding: 20px 10%;
+}
+
+.col
+{
+    width: 375px;
+    padding-left: 10%;
+    margin-right: 2%;
+}
+
+.item
+{
+    width: 350px;
+    height: 500px;
+    line-height: 110px;
+    text-align: center;
+    background-color: #fff;
+    margin-right: 30px;
+}
+
+.item .imgType
+{
+    height: 450px;
+    width: 350px;
+}
+
+.textGroup
+{
+    width: 350px;
+    height: 50px;
+    margin-bottom: -30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.treeName
+{
+    height: 1px;
+    float: left;
+    margin-left: 10px;
+    margin-top: -30px;
+}
+
+.treePrice
+{
+    height: 1px;
+    float: right;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: -30px;
+}
+
+.item:hover .textGroup
+{
+    color: #0097b2;
+}
+
+.imageContainer
+{
+    position: relative;
+    width: 350px;
+}
+
+.floatingButton
+{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    display: none;
+}
+
+.item:hover .floatingButton
+{
+    display: block;
+}

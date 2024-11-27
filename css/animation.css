@@ -1,0 +1,44 @@
+/* Box Animation */
+.box {
+    position: relative;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Box 2 Animation */
+.box2 {
+    position: relative;
+    transform: translateX(100%);
+    transition: transform 0.5s ease;
+}
+  
+.box2.active {
+    transform: translateX(0%);
+}
+  
+.box2.reverse {
+    transform: translateX(100%);
+}
+  
+.box2.active.reverse {
+    transform: translateX(0%);
+}
+
+/* Text Animation 1 */
+.text-animation {
+    font-size: 36px;
+    color: #333;
+    animation: text-anim 2s ease-in-out infinite alternate;
+}
+  
+@keyframes text-anim {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}

@@ -1,0 +1,45 @@
+.footerGroup
+{
+    color: rgb(242, 253, 241);
+    font-weight: bold;
+    font-size: 18px;
+}
+.groupLR
+{
+  color: #109800; 
+  text-shadow: 2px 2px 4px 3px rgb(0, 40, 0); 
+  font-weight: bold;
+}
+.groupLRLight
+{
+  color: #109800;
+}
+input[type="checkbox"]:checked {
+  background-color: green;
+  border: 2px solid green;
+  border-radius: 0px;
+  box-shadow: 5px 10px 15px green inset, -5px -10px 15px green inset ;
+}
+
+.footerContact
+{
+  color: rgb(242, 253, 241);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footerLogo:hover
+{
+  color: bisque;
+}
+
+.footerContact:hover 
+{
+  text-shadow: 3px 3px 3px #074500;
+  color: rgb(242, 253, 241);
+}
+
+.container p
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

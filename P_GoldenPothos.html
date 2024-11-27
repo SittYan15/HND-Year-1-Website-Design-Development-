@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title> www.freshplants.com </title>
+    <!-- icon -->
+    <link rel="icon" href="img/FRESH Plants and Accessories Shop.jpg" type="image/x-icon" style="border-radius: 30%;" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="fontawesome-free-6.4.0-web/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"/>
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    
+    <!-- Enxternal CSS Item Group -->
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footerCSS.css">
+    <link rel="stylesheet" href="css/ItemPageCSS.css">
+    <link rel="stylesheet" href="css/scrollItemBox.css">
+    <link rel="stylesheet" href="css/animation.css">
+
+    <!-- External JavaScript -->
+
+    <!-- Font Family Start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coda&display=swap" rel="stylesheet">
+    <!-- Font Family End -->
+
+    <style>
+      hr
+      {
+	    border-color: rgb(0, 0, 0);
+		border-width: 4px;
+        border-radius: 3px;
+	    }
+
+      .defaultItem
+      {
+        width: 350px;
+        height: 550px;
+        margin-right: 10%;
+        background-color: #fff;
+
+      }
+      .defaultImg
+      {
+        width: 350px;
+        height: 500px;
+      }
+      .defaultTitle
+      {
+        color: black;
+        text-align: center;
+        margin-top: 0px;
+      }
+      .defaultItem:hover .defaultTitle
+      {
+        color: #0097b2;
+      }
+      
+      .col:hover .choosenTitle
+      {
+        color: #0097b2;
+      }
+
+      #counter {
+        font-size: 20px;
+        text-align: center;
+        margin: 20px auto;
+      }
+      .buttonCartNo {
+        font-size: 16px;
+        padding: 5px 10px;
+        margin: 0 10px;
+        width: 50px; 
+        border-radius: 30px;
+        color: black;
+      }
+      .buttonCartNo:hover .buttonCartNo
+      {
+        background-color: #0097b2;
+      }
+      
+    </style>
+
+  </head>
+  <body>
+    <!-- Start -->
+    <div class="topBar">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-mdb-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h5>Celebrate our birthday with 15% off! Ends Tuesday </h5>
+          </div>
+          <div class="carousel-item">
+            <h5>Free Shipping on Orders $150+</h5>
+          </div>
+          <div class="carousel-item">
+            <h5> ၃၀,၀၀၀ အထက် Deli Free for Yangon</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Top Navi Bar -->
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Navbar brand -->
+          <a class="navbar-brand mt-2 mt-lg-0" href="index.html">
+          <img
+          src="img/FRESH.png"
+          height="25"
+          alt="FRESH's Shop Logo"
+          loading="lazy"
+          />
+          </a>
+          <!-- Left links -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-family: 'Coda', cursive; font-size: 18px; margin-left: auto;">
+            <li class="nav-item">
+            <!-- Dropdown -->
+            <li class="nav-item dropdown" style="margin-left: 10px; margin-right: 10px;">
+              <div class="dropdown">
+                <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+                >
+                  Plants
+                </a>
+                <div class="dropdown-content">
+                  <a class="navBorderClass" href="newArrivals.html" style="font-weight: bold; font-size: 17px;">NEW_ARRIVALS</a>
+                  <a class="navBorderClass" href="IndoorPlants.html" style="font-weight: bold; font-size: 17px;">INDOOR_PLANTS</a>
+                  <a class="" href="bestSellers.html">Best_Sellers</a>
+                  <a class="" href="lowMaintainPlants.html">LowMaintenance_Plants</a>
+                  <a class="" href="petFriendlyPlants.html">PetFriendly_Plants</a>
+                  <a class="" href="lowLightHouseplants.html">Low_Light_Houseplants</a>
+                </div>
+              </div>
+            </li>
+            </li>
+            <li class="nav-item">
+            <!-- Dropdown -->
+            <li class="nav-item dropdown" style="margin-left: 10px; margin-right: 10px;">
+              <div class="dropdown">
+                <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+                >
+                  Accessories
+                </a>
+                <div class="dropdown-content">
+                  <a class="navBorderClass" href="Accessories.html" style="font-weight: bold; font-size: 17px;">Accessories</a>
+                  <a class="" href="Pots.html">Pots</a>
+                  <a class="" href="Tools.html">Tools</a>
+                </div>
+              </div>
+            </li>
+            </li>
+            </li>
+            <li class="nav-item" style="margin-left: 10px; margin-right: 10px;">
+              <a class="nav-link navTop" href="Learn.html"> Leran </a>
+            </li>
+            <li class="nav-item" style="margin-left: 10px; margin-right: 10px;">
+              <a class="nav-link navTop" href="ContactUs.html"> Contact Us </a>
+            </li>
+          </ul>
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+
+        <!-- Right elements -->
+        <div class="d-flex align-items-center">
+          <!-- Icon -->
+          <a class="link-secondary me-3" href="Cart.html">
+            <i class="fas fa-shopping-cart" style="font-size: 23px; padding-right: 20px;"></i>
+          </a>
+
+          <!-- Notifications -->
+          <div class="dropdown">
+            <a
+            class="link-secondary me-3 dropdown-toggle hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuLink"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+            >
+              <i class="fas fa-bell" style="font-size: 23px;"></i>
+              <span class="badge rounded-pill badge-notification bg-danger">1</span>
+            </a>
+            <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuLink"
+            >
+              <li>
+                <a class="dropdown-item" href="#">Some news</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Another news</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Avatar -->
+          <a class="link-secondary me-3" href="LoginNSignPage.html">
+            <i class="fas fa-light fa-user" style="font-size: 23px; padding: 0px 20px;"></i>
+          </a>
+        </div>
+        <!-- Right elements -->
+      </div>
+      <!-- Container wrapper -->
+      </na v>
+    <!-- Navbar -->
+    </header>
+    <!-- Top Navi Bar -->
+
+    <div class="mainBody">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col itemImageSlot" style="padding-left: 40px;">
+          <div class="card">
+            <img id="colorItemImage" src="img/Item_GoldenPothos_white.jpg" class="card-img-top itemImage" alt="Hollywood Sign on The Hill"/>
+            <div class="card-body itemTextSlot">
+              <div style="width: 50%; float: left; border-right: 1px solid black;">
+                <i class="fa-solid fa-truck-fast fa-2xl" style="padding-left: 42%;"></i>
+                <h6 style="padding-top: 20px; text-align: center;">Free Shipping</h6>
+                <p style="padding: 5px 10px;">Get free standard shipping when you spend 30000Kyat or more.</p>
+              </div>
+              <div style="width: 50%; float: right;">
+                <i class="fa-solid fa-arrows-rotate fa-2xl" style="padding-left: 44%;"></i>
+                <h6 style="padding-top: 20px; text-align: center;">Guarantee</h6>
+                <p style="padding-top: 5px; padding-left: 20px; padding-right: 10px;">If your plant dies within 30 days, we'll replace it for free.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col itemDescriptionSlot">
+          <div class="card">
+            <div class="card-body itemInside">
+              <h6 style="float: right; padding-top: 6px; color: #006f83;">40,000 Kyat</h6>
+              <h4 class="card-title itemTitle">Golden Pothos</h4>
+              <hr class="ItemPageHR">
+              <p class="card-text itemDetails" style="text-align: justify;">
+                The Golden Pothos is a charming and easy-care plant that looks lovely cascading down a shelf or windowsill.
+                With its heart-shaped leaves streaked with green to golden-yellow variegation, this plant is ready to steal the show.
+                This pothos can be placed in low to indirect light and likes to dry between waterings. You can encourage bushy grwoth
+                by puring near a node and easily propagate these cuttings in water.
+              </p>
+              <h6>CHOOSE POT COLOR</h6>
+              <div class="chooseColor">
+                <ul class="nav nav-pills nav-justified mb-3 colorPickUL" id="ex1" role="tablist">
+                  <li class="nav-item colorchoosen" role="presentation">
+                      <a
+                      class="nav-link active btn-success btn-rounded"
+                      data-mdb-toggle="pill"
+                      data-mdb-ripple-color="black"
+                      role="tab"
+                      aria-controls="pills-login"
+                      aria-selected="true"
+                      onclick="changefirst()"
+                      style="background-color: white; width: 30px; height: 60px; border: 3px solid #0097b2; border-radius: 60%;"
+                      ></a>
+                  </li>
+                  <li class="nav-item colorchoosen" role="presentation">
+                      <a
+                      class="nav-link btn-success btn-rounded"
+                      data-mdb-toggle="pill"
+                      role="tab"
+                      aria-controls="pills-register"
+                      aria-selected="false"
+                      onclick="changesecond()"
+                      style="background-color: rgb(155, 101, 34); width: 30px; height: 60px; border: 3px solid #0097b2; border-radius: 60%;"
+                      ></a>
+                  </li>
+                  <li class="nav-item colorchoosen" role="presentation">
+                      <a
+                      class="nav-link btn-success btn-rounded"
+                      data-mdb-toggle="pill"
+                      role="tab"
+                      aria-controls="pills-register"
+                      aria-selected="false"
+                      onclick="changethird()"
+                      style="background-color: rgb(56, 44, 36); width: 30px; height: 60px; border: 3px solid #0097b2; border-radius: 60%;"
+                      ></a>
+                  </li>
+              </ul>
+              </div>
+              <h6>QUALITY</h6>
+                <div style="width: 380px;">
+                  <div style=" width: 170px; height: 43px;  float: left;">
+                    <button class="buttonCartNo btn btn-outline-success btn-floating" data-mdb-ripple-color="green" onclick="decrease()" style="float: left;">-</button>
+                    <div id="counter" style="width: 30px; margin-top: 0%; text-align: center; color: #074500; text-shadow: 1px 1px 15px #074500;">1</div>
+                    <button class="buttonCartNo btn btn-outline-success btn-floating" data-mdb-ripple-color="blue" onclick="increase()" style="float: right; margin-top: -51.3px;">+</button>
+                  </div>
+                  <div style="float: right;">
+                    <a href="LoginNSignPage.html">
+                    <button type="button" class="btn btn-success btn-rounded" style="width: 200px; height: 43px;">Add to Cart</button>
+                    </a>
+                  </div>
+                </div>
+                <div>
+                  <div class="itemDetailli" style="width: 95%; margin: 0 auto; margin-top: 10px;">
+                    <div class="dropdownDetail" style="width: 100%; padding-top: 30px;">
+                      <button type="button" class="btn btn-light btn-rounded show-more" onclick="toggleText1('text1', 'text2')"
+                      style="margin-top: 30px;">Detail & Care</button>
+                      <div class="hidden-text hidden1" id="text1">
+                        <div style="width: 30%; float: left; padding-top: 15px;">
+                          <ul>
+                            <li>SIZE</li>
+                            <li>DIFFICULT</li>
+                            <li>LIGHT</li>
+                            <li>PET FRIENDLY</li>
+                            <li>AIR</li>
+                          </ul>
+                        </div>
+                        <div style="width: 70%; float: right; padding-top: 15px;">
+                          <ul>
+                            <li>XS__5"-8"tall(including pot)</li>
+                            <li>No-fuss__Easy Care</li>
+                            <li>Low to Bright Indirect</li>
+                            <li>No__Toxic and not pet-friendly</li>
+                            <li>Yes__Releases oxygen and absorbs pollutants</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <button type="button" class="btn btn-light btn-rounded show-more" onclick="toggleText2('text1', 'text2')"
+                      style="margin-top: 15px;">More Detail</button> 
+                      <div class="hidden-text" id="text2">
+                        <div style="width: 80%; margin: 0 auto;">
+                          <ul>
+                            <li>
+                              Healthy plant pre-potted with premium soil
+                              <ul>
+                                <li>Plant size: 5"-8" tall(including pot)</li>
+                              </ul>
+                            </li>
+                            <li>
+                              Ecopots pot and saucer
+                              <ul>
+                                <li>Pot Size: 4.375" in diameter; 3.75" tall</li>
+                                <li>Saucer Size: 4.19" in diameter</li>
+                              </ul>
+                            </li>
+                            <li>
+                              All the tips and tricks for expert-level care
+                            </li>
+                          </ul>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 g-4" style="background-color: #ffffff; margin-top: 30px;">
+        <div class="col box">
+          <div class="card" style="box-shadow: none;">
+            <div class="card-body" style="width: 80%; margin: 0 auto; text-align: justify; box-shadow: none;">
+              <h3 style="padding-bottom: 10px;">Description</h3>
+              <p class="card-text">
+                Enhance your plant collection with the Golden Pothos. 
+                It is wonderfully versatile in the home or office—you can grow it in hanging baskets, 
+                let it climb a trellis, or grow it horizontally along a tabletop or mantle. 
+                Its enchanting variegation and vining nature adds an eye-catching element to any space 
+                when it eventually trails and spills beautifully over its pot. This plant is relatively fast-growing, 
+                making it perfect for a space that needs some greenery.
+              </p>
+              <p class="card-text">
+                The Epipremnum genus, which includes pothos, is native to the tropical Solomon Islands. 
+                These plants can grow huge leaves if given something to climb on and are found in the wild growing on trees. 
+                Pothos can adapt from lower lighting to indirect light. Too little light and the variegation will fade. 
+                Water when the soil is mostly dry. Pothos are simple to propagate through cuttings.
+              </p>
+              <p class="card-text" style="font-style: italic;">
+                Please note: This product is not eligible for discounts
+              </p>
+              <hr>
+              <h4>Botanical Name</h4>
+              <p class="card-text" style="font-style: italic;">
+                Epipremnum aureum
+              </p>
+              <hr>
+              <h4>Common Name(s)</h4>
+              <p>
+                Golden Pothos, Devil's Lvy, Pothos, Taro Vine, Devil's Vine
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card box">
+            <img src="img/Item_GoldenPothos_charcoal_Description.jpg" class="card-img-top" alt="Palm Springs Road"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="lineBreaker" style="margin: 0 auto; width: 96%; padding: 2% 0px;">
+      <hr>
+    </div>
+
+    <h2 style="
+        text-align: left;
+        padding-bottom: 20px;
+        padding-left: 2.5%;
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        color: black;"> 
+    People also browsed
+    </h2>
+
+    <div style="width: 95%; margin: 0 auto;">
+      <div class="wrapper box2">
+        <div class="item">
+          <a href="P_MiniMoneyTree.html">
+            <div class="imageContainer">
+              <img class="imgType" src="img/BS-1.jpg">
+              <a href="LoginNSignPage.html">
+                <button type="button" class="btn btn-info btn-rounded floatingButton" data-mdb-ripple-color="dark">ADD TO CART</button>
+              </a>
+            </div>
+            <div class="textGroup">
+              <p class="treeName">Mini Money Tree</p>
+              <p class="treePrice">30,000 Kyat</p>
+            </div>
+          </a>
+        </div>
+        <div class="item">
+          <a href="">
+            <div class="imageContainer">
+              <img class="imgType" src="img/BS-2.jpg">
+              <a href="LoginNSignPage.html">
+                <button type="button" class="btn btn-info btn-rounded floatingButton" data-mdb-ripple-color="dark">ADD TO CART</button>
+              </a>
+            </div>
+            <div class="textGroup">
+              <p class="treeName">Red Prayer Plant</p>
+              <p class="treePrice">65,000 Kyat</p>
+            </div>
+        </div>
+        <div class="item">
+          <a href="P_PeaceLily.html">
+            <div class="imageContainer">
+              <img class="imgType" src="img/BS-3.jpg">
+              <a href="LoginNSignPage.html">
+                <button type="button" class="btn btn-info btn-rounded floatingButton" data-mdb-ripple-color="dark">ADD TO CART</button>
+              </a>
+            </div>
+            <div class="textGroup">
+              <p class="treeName">Peace Lily</p>
+              <p class="treePrice">120,000 Kyat</p>
+            </div>
+        </div>
+        <div class="item">
+          <a href="">
+            <div class="imageContainer">
+              <img class="imgType" src="img/BS-4.jpg">
+              <a href="LoginNSignPage.html">
+                <button type="button" class="btn btn-info btn-rounded floatingButton" data-mdb-ripple-color="dark">ADD TO CART</button>
+              </a>
+            </div>
+            <div class="textGroup">
+              <p class="treeName">Bromeliad Guzmania Yellow</p>
+              <p class="treePrice">30,000 Kyat</p>
+            </div>
+        </div>
+        <div class="item">
+          <a href="">
+            <div class="imageContainer">
+              <img class="imgType" src="img/BS-5.jpg">
+              <a href="LoginNSignPage.html">
+                <button type="button" class="btn btn-info btn-rounded floatingButton" data-mdb-ripple-color="dark">ADD TO CART</button>
+              </a>
+            </div>
+            <div class="textGroup">
+              <p class="treeName">Tough StuffCollection</p>
+              <p class="treePrice">130,000 Kyat</p>
+            </div>
+        </div>
+        <div class="item">
+          <a href="">
+            <div class="imageContainer">
+              <img class="imgType" src="img/BS-6.jpg">
+              <a href="LoginNSignPage.html">
+                <button type="button" class="btn btn-info btn-rounded floatingButton" data-mdb-ripple-color="dark">ADD TO CART</button>
+              </a>
+            </div>
+            <div class="textGroup">
+              <p class="treeName">Money Tree Forest</p>
+              <p class="treePrice">125,000 Kyat</p>
+            </div>
+        </div>
+        <div class="item">
+          <a href="">
+            <div class="imageContainer">
+              <img class="imgType" src="img/BS-7.jpg">
+              <a href="LoginNSignPage.html">
+                <button type="button" class="btn btn-info btn-rounded floatingButton" data-mdb-ripple-color="dark">ADD TO CART</button>
+              </a>
+            </div>
+            <div class="textGroup">
+              <p class="treeName">Philoderndron HeartLeaf</p>
+              <p class="treePrice">30,000 Kyat</p>
+            </div>
+        </div>
+        <div class="item">
+          <a href="">
+            <div class="imageContainer">
+              <img class="imgType" src="img/BS-8.jpg">
+              <a href="LoginNSignPage.html">
+                <button type="button" class="btn btn-info btn-rounded floatingButton" data-mdb-ripple-color="dark">ADD TO CART</button>
+              </a>
+            </div>
+            <div class="textGroup">
+              <p class="treeName">Cat Palm</p>
+              <p class="treePrice">300,000 Kyat</p>
+            </div>
+        </div>
+        <div class="item">
+          <a href="">
+            <div class="imageContainer">
+              <img class="imgType" src="img/BS-9.jpg">
+              <a href="LoginNSignPage.html">
+                <button type="button" class="btn btn-info btn-rounded floatingButton" data-mdb-ripple-color="dark">ADD TO CART</button>
+              </a>
+            </div>
+            <div class="textGroup">
+              <p class="treeName">Parlor Palm</p>
+              <p class="treePrice">70,000 Kyat</p>
+            </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="lineBreaker" style="margin: 0 auto; width: 96%; padding: 2% 0px;">
+      <hr>
+    </div>
+
+    
+    <h1 class="inlineTitle"> Plants Made Simple </h1>
+
+    <!--Footer Start-->
+    <br>
+    <div style="background-color: #0097b2;">
+<footer class="text-center text-lg-start text-muted" style="border: 1px solid black;">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span class="footerGroup">Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div style="color: rgb(213, 228, 234);">
+        <a href="https://facebook.com" class="me-4 text-reset footerLogo">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com" class="me-4 text-reset footerLogo">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://google.com" class="me-4 text-reset footerLogo">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="https://instagram.com" class="me-4 text-reset footerLogo">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://linkedin.com" class="me-4 text-reset footerLogo">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com" class="me-4 text-reset footerLogo">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+        <!-- Section: Form -->
+        <br>
+        <section class="">
+            <form action="">
+              <!--Grid row-->
+              <div class="row d-flex justify-content-center">
+                <!--Grid column-->
+                <div class="col-auto">
+                  <p class="pt-2">
+                    <strong class="footerGroup">Sign up for our newsletter</strong>
+                  </p>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="col-md-5 col-12">
+                  <!-- Email input -->
+                  <div class="form-outline mb-4">
+                    <input type="email" id="form5Example21" class="form-control" />
+                    <label class="form-label" for="form5Example21">Email address</label>
+                  </div>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="col-auto">
+                  <!-- Submit button -->
+                  <button type="submit" class="btn btn-success btn-rounded mb-4">
+                    Subscribe
+                  </button>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </form>
+          </section>
+          <!-- Section: Form -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5 footerGroup">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4" style="text-shadow: 2px 2px 3px #074500; font-size: 18px;">
+              <i class="fas fa-gem me-3"></i>FRESH Plants & Accessories
+            </h6>
+            <p>
+              Bring nature indoors and create a relaxing atmosphere with our carefully curated selection of plants.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4" style="text-shadow: 2px 2px 3px #074500; font-size: 18px;">
+              Products
+            </h6>
+            <p>
+              <a href="newArrivals.html" class="text-reset footerContact">Plants</a>
+            </p>
+            <p>
+              <a href="Tools.html" class="text-reset footerContact">Tools</a>
+            </p>
+            <p>
+              <a href="Accessories.html" class="text-reset footerContact">Accessories</a>
+            </p>
+            <p>
+              <a href="Pots.html" class="text-reset footerContact">Pots</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4" style="text-shadow: 2px 2px 3px #074500; font-size: 18px;">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset footerContact">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset footerContact">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset footerContact">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset footerContact">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+
+            <h6 class="text-uppercase fw-bold mb-4" style="text-shadow: 2px 2px 3px #074500; font-size: 18px;">Contact</h6>
+            <p><i class="fas fa-home me-3"></i>
+              <a href="ContactUs.html" class="footerContact"> TimeCity, SanChaung, Yangon </a></p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              <a href="ContactUs.html" class="footerContact"> freeshop@gmail.com </a></p>
+            </p>
+            <p><i class="fas fa-phone me-3"></i> 
+              <a href="ContactUs.html" class="footerContact"> +01 234 567 89 </a></p>
+            </p>
+            <p><i class="fas fa-phone me-3"></i> 
+              <a href="ContactUs.html" class="footerContact"> +09 9566 120 67 </a></p>
+            </p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="color: rgb(213, 228, 234);
+      text-shadow: 3px 3px 20px rgb(2, 77, 117);
+      font-size: 20px;
+      border: 3px solid rgb(213, 228, 234); 
+      border-radius: 15px; 
+      box-shadow: 5px 10px 60px rgb(2, 126, 143) inset, -5px -10px 60px rgb(2, 126, 143) inset;">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="index.html">www.FRESH.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+    </div>
+    <!--Footer End-->
+
+    <!-- End -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript">
+      window.addEventListener("scroll", function()
+      {
+        var header = document.querySelector("header");
+        header.classList.toggle("fixed-top", window.scrollY > 35);
+      })
+
+      var counter = document.getElementById("counter");
+      var count = 1;
+      function increase() {
+        if (count < 99) {
+          count++;
+          counter.innerHTML = count;
+          }
+        }
+    
+      function decrease() {
+        if (count > 1) {
+          count--;
+          counter.innerHTML = count;
+        }
+      }
+
+      function changefirst() 
+    {
+        var image = document.getElementById('colorItemImage');
+        image.src = "img/Item_MiniMoneyTreeStone.jpg";
+    }
+    function changesecond() 
+    {
+        var image = document.getElementById('colorItemImage');
+        image.src = "img/Item_MiniMoneyTreeCharcoal.jpg";
+    }
+    function changethird() {
+        var image = document.getElementById('colorItemImage');
+        image.src = "img/Item_MiniMoneyTreeIndigo.jpg";
+    }
+
+      function toggleText1(showId, hideId) {
+        var showText = document.getElementById(showId);
+        var hideText = document.getElementById(hideId);
+        var time = 0;
+
+        if (time == 0)
+        {
+          showText.style.display = "block";
+          hideText.style.display = "none";
+          time++;
+        } else if (showText.style.display == "none") 
+        {
+          showText.style.display = "block";
+          hideText.style.display = "none";
+        } else if (showText.style.display == "block")
+        {
+          showText.style.display = "none";
+          hideText.style.display = "none";
+        }
+      }
+      function toggleText2(showId, hideId) {
+        var showText = document.getElementById(showId);
+        var hideText = document.getElementById(hideId);
+        var time = 0;
+
+        if (time == 0)
+        {
+          hideText.style.display = "block";
+          showText.style.display = "none";
+          time++;
+        } else if (hideText.style.display == "none") 
+        {
+          hideText.style.display = "block";
+          showText.style.display = "none";
+        } else if (hideText.style.display == "block")
+        {
+          showText.style.display = "none";
+          hideText.style.display = "none";
+        }
+      }
+        
+      </script>
+      <script src="js/animation.js"></script>
+  </body>
+</html>

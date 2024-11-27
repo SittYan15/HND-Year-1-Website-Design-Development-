@@ -1,0 +1,95 @@
+.mainBody
+{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.itemImageSlot
+{
+    width: 600px;
+}
+.imgTitle
+{
+    text-align: center;
+    color: black;
+}
+
+.itemImage
+{
+
+}
+
+.itemTextSlot
+{
+
+}
+
+.itemDescriptionSlot
+{
+    width: 700px;
+    margin-left: 3%;
+}
+
+.itemInside
+{
+
+}
+
+.itemTitle
+{
+    text-align: left;
+    color: #026f1b;
+}
+
+.itemDetails
+{
+    margin-bottom: 30px;
+}
+
+.ItemPageHR
+{
+    
+}
+
+.colorchoosen
+{
+    width: 50px;
+    display: inline-block;
+    margin-right: 30px;
+
+}
+
+.colorPickUL
+{
+    width: 300px;
+}
+
+.hidden-text {
+    display: none;
+}
+.show-more {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+.dropdownDetail button
+{
+    width: 100%; 
+    box-shadow: 1px 1px 5px #074500;
+    text-decoration: none;
+    color: black;
+}
+
+.itemDetailli .dropdownDetail .hidden1 li
+{
+    list-style: none;
+    padding: 10px 0px;
+    border-bottom: 1px solid black;
+}
+
+p
+{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
